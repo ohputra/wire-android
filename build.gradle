@@ -93,10 +93,10 @@ ext {
             scala               : "org.scala-lang:scala-library:$scalaVersion",
 
             // Annotations processing
-            autoService         : 'com.google.auto.service:auto-service:1.0-rc2',
-            commonsLang3        : 'org.apache.commons:commons-lang3:3.4',
-            javaPoet            : 'com.squareup:javapoet:1.5.1',
-            javaWriter          : 'com.squareup:javawriter:2.5.1',
+            //autoService         : 'com.google.auto.service:auto-service:1.0-rc2',
+            //commonsLang3        : 'org.apache.commons:commons-lang3:3.4',
+            //javaPoet            : 'com.squareup:javapoet:1.5.1',
+            //javaWriter          : 'com.squareup:javawriter:2.5.1',
 
             // Lint dependencies
             lintapi              : 'com.android.tools.lint:lint-api:24.5.0',
@@ -143,7 +143,7 @@ ext {
             junit               : 'junit:junit:4.12',
             testutils           : "com.wire:testutils:$zMessagingDevVersionBase",
             scalatest           : "org.scalatest:scalatest_$scalaMajorVersion:2.2.6",
-            easymock            : 'org.easymock:easymock:3.3',
+            //easymock            : 'org.easymock:easymock:3.3',
             testRunner          : 'com.android.support.test:runner:0.4.1',
             testRules           : 'com.android.support.test:rules:0.4.1',
             espresso            : 'com.android.support.test.espresso:espresso-core:2.2',

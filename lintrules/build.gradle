@@ -6,7 +6,7 @@ dependencies {
     compile deps.lintapi
     compile deps.lintchecks
 
-    testCompile deps.easymock
+    //testCompile deps.easymock
     testCompile deps.junit
 }
 

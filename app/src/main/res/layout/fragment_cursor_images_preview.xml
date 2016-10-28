@@ -45,7 +45,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:inputType="none"
-            android:singleLine="true"
+            android:maxLines="1"
             android:ellipsize="end"
             android:background="@null"
             android:clickable="false"
