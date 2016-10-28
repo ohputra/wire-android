@@ -129,7 +129,7 @@ ext {
             hockey               : 'net.hockeyapp.android:HockeySDK:3.7.2',
             threetenabp          : 'com.jakewharton.threetenabp:threetenabp:1.0.3',
             localytics           : 'com.localytics.android:library:3.8.2',
-            nineoldandroids      : 'com.nineoldandroids:library:2.4.0',
+            //nineoldandroids      : 'com.nineoldandroids:library:2.4.0',
             rebound              : 'com.facebook.rebound:rebound:0.3.8',
             supportpreferences   : 'net.xpece.android:support-preference:0.8.1',
 

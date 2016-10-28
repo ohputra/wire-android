@@ -410,7 +410,7 @@ dependencies {
     compile deps.cardview
 
     //Used for animating incoming messages
-    compile deps.nineoldandroids
+    //compile deps.nineoldandroids
     // For using local files in app/libs
     //compile (name:'avs', ext:'aar')
     //compile (name:'audio-notifications', ext:'aar')
