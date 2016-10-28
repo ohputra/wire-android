@@ -32,7 +32,6 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/sign_in__edit_text__height"
             android:maxLines="1"
-            android:singleLine="true"
             android:inputType="textNoSuggestions|textEmailAddress"
             android:imeOptions="actionNext"
             android:paddingRight="@dimen/wire__padding__small"

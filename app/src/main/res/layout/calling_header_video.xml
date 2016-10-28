@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/wire__padding__tiny"
             android:ellipsize="end"
-            android:singleLine="true"
+            android:maxLines="1"
             android:textAlignment="viewStart"
             android:textColor="@color/text__primary_dark"
             android:textSize="@dimen/wire__text_size__regular"

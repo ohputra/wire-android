@@ -49,7 +49,7 @@
         android:layout_marginTop="@dimen/options_menu_item_title_margin_top"
         android:gravity="center"
         android:ellipsize="end"
-        android:singleLine="true"
+        android:maxLines="1"
         android:textAllCaps="true"
         android:textSize="@dimen/wire__text_size__small"
         app:font="@string/wire__typeface__light"

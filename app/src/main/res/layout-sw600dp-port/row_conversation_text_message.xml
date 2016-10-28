@@ -27,6 +27,7 @@
              android:gravity="center"
              android:paddingEnd="@dimen/content__row__padding_right"
              android:baselineAligned="false"
+             tools:ignore="MergeRootFrame"
     >
 
     <LinearLayout

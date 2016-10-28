@@ -30,7 +30,7 @@
           android:lines="1"
           android:includeFontPadding="false"
           android:scrollHorizontally="true"
-          android:singleLine="true"
+          android:maxLines="1"
           android:fontFamily="sans-serif-light"
           android:textSize="@dimen/list_font_size"
           tools:ignore="SelectableText"

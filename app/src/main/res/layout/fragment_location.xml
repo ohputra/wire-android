@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left|center_vertical"
                 android:layout_marginRight="@dimen/wire__padding__regular"
-                android:singleLine="true"
+                android:maxLines="1"
                 android:ellipsize="end"
                 android:background="@null"
                 style="?conversationToolbar"
@@ -126,7 +126,7 @@
                     android:paddingRight="@dimen/wire__padding__regular"
                     android:ellipsize="end"
                     android:textColor="@color/graphite"
-                    android:singleLine="true"
+                    android:maxLines="1"
                     app:font="@string/wire__typeface__thin"
                     android:textSize="@dimen/wire__text_size__regular"
                     />

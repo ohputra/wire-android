@@ -94,7 +94,7 @@
             android:layout_marginTop="@dimen/new_reg__edit_to_header__margin_top"
             android:layout_marginBottom="@dimen/new_reg__edit_to_header__margin_top"
             android:layout_gravity="center_vertical|left"
-            android:singleLine="true"
+            android:maxLines="1"
             android:text="@string/welcome__terms_of_service"
             android:textColor="@color/first_time__welcome__tos_color"
             android:textSize="@dimen/wire__text_size__small"

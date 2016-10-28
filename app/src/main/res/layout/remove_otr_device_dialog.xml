@@ -36,7 +36,7 @@
             android:id="@+id/acet__remove_otr__password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:singleLine="true"
+            android:maxLines="1"
             android:inputType="textPassword"
             />
 

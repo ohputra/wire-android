@@ -97,7 +97,6 @@
                         android:maxLength="@integer/participants__header__max_length"
                         android:maxLines="3"
                         android:padding="@dimen/participants__header__input_field__padding"
-                        android:singleLine="false"
                         android:textColorHint="@color/text__secondary_light"
                         app:font="@string/wire__typeface__medium"
                         style="?userEditText"
@@ -153,7 +152,7 @@
                     android:gravity="center"
                     android:ellipsize="end"
                     android:textAllCaps="true"
-                    android:singleLine="true"
+                    android:maxLines="1"
                     app:font="@string/wire__typeface__light"
                     style="?userSubHeader"
                     />

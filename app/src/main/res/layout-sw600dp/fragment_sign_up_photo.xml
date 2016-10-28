@@ -39,6 +39,7 @@
         />
 
     <FrameLayout
+        android:id="@+id/fl__photo_container"
         android:layout_width="@dimen/signup_content__width"
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/signup_content__margin_top"

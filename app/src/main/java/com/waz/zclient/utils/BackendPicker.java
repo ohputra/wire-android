@@ -18,6 +18,7 @@
 package com.waz.zclient.utils;
 
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -90,6 +91,7 @@ public class BackendPicker {
         return BuildConfig.SHOW_BACKEND_PICKER ? getCustomBackend() : BuildConfigUtils.defaultBackend();
     }
 
+    @SuppressLint("CommitPrefEdits") // lint not seeing commit
     private void saveBackendConfig(BackendConfig backend) {
         PreferenceManager.getDefaultSharedPreferences(context).edit().putString(CUSTOM_BACKEND_PREFERENCE, backend.environment()).commit();
     }

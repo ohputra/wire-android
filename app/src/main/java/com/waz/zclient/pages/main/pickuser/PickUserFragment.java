@@ -749,6 +749,12 @@ public class PickUserFragment extends BaseFragment<PickUserFragment.Container> i
                 case SearchResultAdapter.ITEM_TYPE_OTHER_USER:
                     getControllerFactory().getTrackingController().tagEvent(new PeoplePickerSelectSearchUser(position));
                     break;
+                case SearchResultAdapter.ITEM_TYPE_CONTACT:
+                case SearchResultAdapter.ITEM_TYPE_CONVERSATION:
+                case SearchResultAdapter.ITEM_TYPE_INITIAL:
+                case SearchResultAdapter.ITEM_TYPE_SECTION_HEADER:
+                case SearchResultAdapter.ITEM_TYPE_TOP_USER:
+                    break;
             }
         }
 

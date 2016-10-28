@@ -64,7 +64,7 @@
                 android:layout_width="@dimen/content__separator__label_container__width"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:singleLine="true"
+                android:maxLines="1"
                 android:ellipsize="end"
                 android:includeFontPadding="false"
                 android:visibility="gone"

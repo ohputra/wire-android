@@ -113,6 +113,7 @@ import java.util.List;
  * indicates that the pane should be sized to fill all available space except a small minimum strip
  * that the user may use to grab the slideable view and pull it back over into a closed state.</p>
  */
+@SuppressWarnings("all")
 public class SlidingPaneLayout extends ViewGroup {
     private static final String TAG = "SlidingPaneLayout";
 

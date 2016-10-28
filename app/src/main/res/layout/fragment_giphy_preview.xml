@@ -55,7 +55,7 @@
                 android:layout_gravity="start|center_vertical"
                 android:paddingEnd="@dimen/wire__padding__regular"
                 android:background="@null"
-                android:singleLine="true"
+                android:maxLines="1"
                 android:hint="@string/giphy_preview__search_hint"
                 android:imeOptions="actionSend"
                 android:inputType="textCapSentences"
@@ -71,7 +71,7 @@
                 android:layout_marginEnd="@dimen/wire__margin__huge"
                 android:layout_gravity="start|center_vertical"
                 android:paddingEnd="@dimen/wire__padding__regular"
-                android:singleLine="true"
+                android:maxLines="1"
                 android:ellipsize="end"
                 style="?startUiToolbar"
                 />

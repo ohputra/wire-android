@@ -34,7 +34,7 @@
         custom:font="@string/wire__typeface__light"
         android:textSize="@dimen/country_box__text_size"
         android:ellipsize="end"
-        android:singleLine="true"
+        android:maxLines="1"
         android:layout_gravity="left|center_vertical"
         />
 
@@ -47,7 +47,7 @@
         custom:font="@string/wire__typeface__light"
         android:textSize="@dimen/country_box__text_size"
         android:ellipsize="end"
-        android:singleLine="true"
+        android:maxLines="1"
         android:layout_gravity="right|center_vertical"
         />
 

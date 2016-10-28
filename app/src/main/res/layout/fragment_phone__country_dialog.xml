@@ -38,7 +38,7 @@
             custom:font="@string/wire__typeface__bold"
             android:textStyle="bold"
             android:textSize="@dimen/country_box__text_size"
-            android:singleLine="true"
+            android:maxLines="1"
             android:text="@string/country"
             android:layout_gravity="center"
             android:gravity="center"

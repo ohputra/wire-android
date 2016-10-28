@@ -107,7 +107,7 @@
                 custom:font="@string/wire__typeface__light"
                 android:textSize="@dimen/wire__text_size__regular"
                 android:ellipsize="end"
-                android:singleLine="true"
+                android:maxLines="1"
                 android:layout_gravity="center_vertical"
                 android:gravity="center_vertical"
                 />

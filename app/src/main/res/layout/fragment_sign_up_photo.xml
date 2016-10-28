@@ -39,6 +39,7 @@
         />
 
     <FrameLayout
+        android:id="@+id/fl__photo_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/framework__general__bottom_padding"

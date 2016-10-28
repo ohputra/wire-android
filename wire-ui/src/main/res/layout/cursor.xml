@@ -73,7 +73,6 @@
                 android:inputType="textCapSentences|textMultiLine"
                 android:maxLines="@integer/cursor__max_lines"
                 android:scrollHorizontally="false"
-                android:singleLine="false"
                 android:lineSpacingExtra="@dimen/content__line_spacing_extra"
                 custom:font="@string/wire__typeface__light"
                 >
@@ -114,7 +113,6 @@
                 android:layout_marginEnd="@dimen/wire__padding__regular"
                 android:background="@android:drawable/toast_frame"
                 android:gravity="center"
-                android:singleLine="false"
                 android:textColor="@color/text__primary_dark"
                 custom:font="@string/wire__typeface__light"
                 />

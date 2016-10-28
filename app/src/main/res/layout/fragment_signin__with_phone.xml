@@ -149,7 +149,7 @@
                     android:layout_weight="1"
                     android:ellipsize="end"
                     android:gravity="center_vertical"
-                    android:singleLine="true"
+                    android:maxLines="1"
                     android:textColor="@drawable/selector__simple_text_button"
                     android:textSize="@dimen/wire__text_size__regular"
                     custom:font="@string/wire__typeface__light"
