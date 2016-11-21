@@ -77,7 +77,7 @@ public class LaunchActivity extends BaseActivity implements InitListener {
             getStoreFactory().getAppEntryStore().clearCurrentState();
         }
 
-        if (getStoreFactory().getAppEntryStore().getEntryPoint() == null && self.isLoggedIn()) {
+        if (getStoreFactory().getAppEntryStore().getEntryPoint() == null && self.isLoggedIn() && self.hasSetUsername()) {
             switch (self.getClientRegistrationState()) {
                 case PASSWORD_MISSING:
                     startOTRSignIn();

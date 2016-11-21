@@ -83,7 +83,10 @@ public enum AppEntryState {
     PHONE_INVITATION,
 
     // Logged in for the first time, show message about no message history
-    FIRST_LOGIN;
+    FIRST_LOGIN,
+
+    //First time setup of the username
+    FIRST_USERNAME_SET;
 
     public static EnumSet<AppEntryState> entryPoints() {
         return EnumSet.of(AppEntryState.PHONE_REGISTER,

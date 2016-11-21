@@ -40,5 +40,6 @@ public interface AppEntryStateCallback {
     void onShowEmailAddPhonePage();
     void onShowEmailPhoneCodePage();
     void onShowFirstLaunchPage();
+    void onShowFirstUsernameSet();
     void tagAppEntryEvent(Event event);
 }

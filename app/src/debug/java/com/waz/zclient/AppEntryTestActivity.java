@@ -222,6 +222,11 @@ public class AppEntryTestActivity extends TestActivity implements VerifyPhoneFra
     public ImageAsset getUnsplashImageAsset() {
         return null;
     }
+
+    @Override
+    public void onShowFirstUsernameSet() {
+
+    }
 }
 
 

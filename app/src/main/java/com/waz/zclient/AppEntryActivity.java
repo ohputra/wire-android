@@ -49,6 +49,7 @@ import com.waz.zclient.newreg.fragments.EmailRegisterFragment;
 import com.waz.zclient.newreg.fragments.EmailSignInFragment;
 import com.waz.zclient.newreg.fragments.EmailVerifyEmailFragment;
 import com.waz.zclient.newreg.fragments.FirstLaunchAfterLoginFragment;
+import com.waz.zclient.newreg.fragments.FirstTimeAssignUsername;
 import com.waz.zclient.newreg.fragments.OTRPhoneAddEmailFragment;
 import com.waz.zclient.newreg.fragments.PhoneAddEmailFragment;
 import com.waz.zclient.newreg.fragments.PhoneInvitationFragment;
@@ -522,6 +523,15 @@ public class AppEntryActivity extends BaseActivity implements VerifyPhoneFragmen
             .commit();
 
         KeyboardUtils.hideKeyboard(this);
+    }
+
+    @Override
+    public void onShowFirstUsernameSet() {
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        setDefaultAnimation(transaction)
+            .replace(R.id.fl_main_content, FirstTimeAssignUsername.newInstance(), VerifyPhoneFragment.TAG)
+            .commit();
+        enableProgress(false);
     }
 
     //////////////////

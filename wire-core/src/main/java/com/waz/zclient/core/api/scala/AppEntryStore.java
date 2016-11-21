@@ -124,6 +124,11 @@ public class AppEntryStore implements IAppEntryStore, ErrorsList.ErrorListener {
             return;
         }
 
+        if (self.isLoggedIn() && !self.hasSetUsername()) {
+            setState(AppEntryState.FIRST_USERNAME_SET);
+            return;
+        }
+
         if (!TextUtils.isEmpty(personalInvitationToken)) {
             invitationToken = InvitationTokenFactory.personalTokenFromCode(personalInvitationToken);
             zMessagingApi.getInvitations().retrieveInvitationDetails(
@@ -478,6 +483,9 @@ public class AppEntryStore implements IAppEntryStore, ErrorsList.ErrorListener {
                 break;
             case FIRST_LOGIN:
                 appEntryStateCallback.onShowFirstLaunchPage();
+                break;
+            case FIRST_USERNAME_SET:
+                appEntryStateCallback.onShowFirstUsernameSet();
                 break;
         }
     }
