@@ -77,9 +77,9 @@ public class BaseClassDetector extends Detector implements Detector.JavaScanner 
         new Implementation(BaseClassDetector.class, Scope.JAVA_FILE_SCOPE));
 
     private static final String[] BASE_CLASSES = new String[] {
-        "com.waz.zclient.pages.BaseDialogFragment<",
-        "com.waz.zclient.pages.BaseFragment<",
-        "com.waz.zclient.pages.BasePreferenceFragment<",
+        "com.waz.zclient.pages.BaseDialogFragment",
+        "com.waz.zclient.pages.BaseFragment",
+        "com.waz.zclient.pages.BasePreferenceFragment",
         "com.waz.zclient.BaseActivity",
         "com.waz.zclient.BasePreferenceActivity"
     };

@@ -92,12 +92,6 @@ ext {
     deps = [
             scala               : "org.scala-lang:scala-library:$scalaVersion",
 
-            // Annotations processing
-            //autoService         : 'com.google.auto.service:auto-service:1.0-rc2',
-            //commonsLang3        : 'org.apache.commons:commons-lang3:3.4',
-            //javaPoet            : 'com.squareup:javapoet:1.5.1',
-            //javaWriter          : 'com.squareup:javawriter:2.5.1',
-
             // Lint dependencies
             lintapi              : 'com.android.tools.lint:lint-api:24.5.0',
             lintchecks           : 'com.android.tools.lint:lint-checks:24.5.0',
@@ -129,7 +123,6 @@ ext {
             hockey               : 'net.hockeyapp.android:HockeySDK:3.7.2',
             threetenabp          : 'com.jakewharton.threetenabp:threetenabp:1.0.3',
             localytics           : 'com.localytics.android:library:3.8.2',
-            //nineoldandroids      : 'com.nineoldandroids:library:2.4.0',
             rebound              : 'com.facebook.rebound:rebound:0.3.8',
             supportpreferences   : 'net.xpece.android:support-preference:0.8.1',
 
@@ -143,7 +136,6 @@ ext {
             junit               : 'junit:junit:4.12',
             testutils           : "com.wire:testutils:$zMessagingDevVersionBase",
             scalatest           : "org.scalatest:scalatest_$scalaMajorVersion:2.2.6",
-            //easymock            : 'org.easymock:easymock:3.3',
             testRunner          : 'com.android.support.test:runner:0.4.1',
             testRules           : 'com.android.support.test:rules:0.4.1',
             espresso            : 'com.android.support.test.espresso:espresso-core:2.2',
